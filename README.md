@@ -9,9 +9,18 @@ grabTT is a solution software that aims at easing out the "additional/breadth su
 ## What my solution is
 I have designed this GUI based software that eases the process out drastically -
 
-1. The slots are already recorded and configured. You simply select one by one the subject you want and its respective slot. Whenever there is a slot clash the software automatically tells you. 
-2. As a bonus at the end you get a sweet .png file of your routine, and a .ics file that you can add to your calendar.
-3. The files are stored in easy and editable text formats, so you can edit everything about this with almost no coding knowledge.
+1. The slots are already recorded and configured. You simply select one by one the subject you want and its respective slot. Whenever there is a slot clash the software automatically tells you. ![Slots](Slots.png)
+3. As a bonus at the end you get a sweet .png file of your routine, and a .ics file that you can add to your calendar.
+![tt](tt.png)
+5. The files are stored in easy and editable text formats, so you can edit everything about this with almost no coding knowledge.
+
+## How it works
+For the nerds out there -
+
+1. It takes in a txt file called Slots.txt that defines each slot's coordinates.
+2. It takes in another txt file called Allots.txt that defines each alloted subject's slot.
+3. Both of the above processes also have their respective GUI, which you can use to create the text files with ease.
+5. Finally it renders a timetable in png and ics format from these two text files.
 
 ## Areas to work on
 In no way a conclusive list -
