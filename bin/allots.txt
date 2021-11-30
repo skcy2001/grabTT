@@ -1,0 +1,36 @@
+L
+AnaComm Lab
+EC39001
+
+F4
+AnaComm
+EC31001
+
+D4
+DEC
+EC31003
+
+C4
+RF
+EC31005
+
+X
+DEC Lab
+EC39003
+
+J
+Microwave Lab
+EC39005
+
+G3
++ve Psych
+HSS
+
+S1
++ve Psych
+HSS
+
+E4
+CSE
+EC31009
+
