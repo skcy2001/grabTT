@@ -10,7 +10,7 @@ grabTT is a solution software that aims at easing out the "additional/breadth su
 I have designed this GUI based software that eases the process out drastically -
 
 1. The slots are already recorded and configured. You simply select one by one the subject you want and its respective slot. Whenever there is a slot clash the software automatically tells you. ![Slots](Slots.png)
-3. As a bonus at the end you get a sweet .png file of your routine, and a .ics file that you can add to your calendar.
+3. As a bonus at the end you get a sweet .png, .csv file of your routine, and a .ics file that you can add to your calendar.
 ![tt](tt.png)
 5. The files are stored in easy and editable text formats, so you can edit everything about this with almost no coding knowledge.
 
