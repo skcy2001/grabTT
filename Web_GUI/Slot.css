@@ -1,0 +1,17 @@
+.rows{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    justify-content: space-around;
+}
+
+.cols{
+    height: 80px;
+    width: 10%;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.toggle_class{
+    background-color:red;
+}
