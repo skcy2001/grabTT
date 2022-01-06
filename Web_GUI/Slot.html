@@ -11,35 +11,44 @@
     <title>Bool Slots</title>
 </head>
 <body>
-    <div id="preview">
-        Enter Number of Columns:
-        <input type="text" name="col_num" id="col_num">
-        <button type="button" class="btn btn-warning" id="submit_cols">Submit</button>
-    </div>
     <div id="outer">
-        <div class="rows">
-            <div class="day">Monday</div>
-            
+        <div id="file_outer">
+            <input type="file" accept=".txt" id="prev_file">
         </div>
-        <div class="rows">
-            <div class="day">Tuesday</div>
-            
+        <div id="manual_outer">
+            <div id="preview">
+                Enter Number of Columns:
+                <input type="text" name="col_num" id="col_num">
+                <button type="button" class="btn btn-warning" id="submit_cols">Submit</button>
+            </div>
+            <div class="rows">
+                <div class="day">Monday</div>
+                <div class="inner_rows"></div>
+            </div>
+            <div class="rows">
+                <div class="day">Tuesday</div>
+                <div class="inner_rows"></div>
+            </div>
+            <div class="rows">
+                <div class="day">Wednesday</div>
+                <div class="inner_rows"></div>
+            </div>
+            <div class="rows">
+                <div class="day">Thursday</div>
+                <div class="inner_rows"></div>
+            </div>
+            <div class="rows">
+                <div class="day">Friday</div>
+                
+            </div>
+            <div id="submit_slots">
+                Name:
+                <input type="text" name="slotName" id="slot_name">
+                <button type="button" class="btn btn-primary" id="submit">Save</button>
+            </div>
         </div>
-        <div class="rows">
-            <div class="day">Wednesday</div>
-            
-        </div>
-        <div class="rows">
-            <div class="day">Thursday</div>
-            
-        </div>
-        <div class="rows">
-            <div class="day">Friday</div>
-            
-        </div>
-        <div id="submit_slots">
-            <input type="text" name="slotName" id="slot_name">
-            <button type="button" class="btn btn-primary" id="submit">Submit</button>
+        <div id="final_submit">
+            <button type="button" class="btn btn-success" id="submit">NEXT</button>
         </div>
     </div>
     
